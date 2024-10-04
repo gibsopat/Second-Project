@@ -1,0 +1,112 @@
+h1.superman {
+  align-content: center;
+  color:crimson;
+  background-color:yellow;
+  font-size:50px;
+  border:blue 4px solid;
+  width:600px;
+}
+h2.superman {
+  text-align-last: center;
+  color:crimson;
+  background-color:gold;
+  border:blue 4px solid;
+  border-bottom-right-radius: 30%;
+  border-bottom-left-radius: 30%;
+  font-size:30px;
+  width:600px;
+  
+}
+.superman:hover {
+    background-color:black;
+    border: red 4px solid;
+}
+.S {
+    background-image: url("https://th.bing.com/th/id/R.849aaca6ceb1229d2eb449f1a2675232?rik=NmOwcCjGvPF4oQ&riu=http%3a%2f%2fwww.pngall.com%2fwp-content%2fuploads%2f2016%2f06%2fSuperman-Logo-PNG-File.png&ehk=uSXetANsjOQcwEvnj0MG1%2bd38nbeWT5nY99JjxgEOXA%3d&risl=&pid=ImgRaw&r=0");
+    display:inline;
+    height:600px;
+    background-size: cover;
+    background-color:rgb(8, 8, 58);
+    padding-right: 770px;
+}
+.S:hover {
+  background-image: url("https://logos-world.net/wp-content/uploads/2020/11/Superman-Logo-2001-2003.png");
+  padding-right: 900px;
+}
+h1.head {
+  align-content: center;
+  color:black;
+  background-color:red;
+  font-size:60px;
+  font-family:cursive;
+  font-style:italic;
+  border:yellow 4px solid;
+  border-radius:50%;
+  width:300px;
+  height: 300px;
+  margin: 0px auto;
+}
+p.head {
+  color:white;
+  font-size:23px;
+  background-color:black;
+  opacity: 75%;
+}
+.image-shift {
+  position: relative;
+  width: 600px;
+  height: 400px;
+}
+.image-shift img{
+  position:absolute;
+  width: 600px;
+  height:400px;
+  opacity: 0;
+  animation: fade 9s infinite;
+}
+.image-shift img:nth-child(1){
+  animation-delay: 0s;
+}
+.image-shift img:nth-child(2){
+  animation-delay: 3s;
+}
+.image-shift img:nth-child(3){
+  animation-delay: 6s;
+}
+@keyframes fade{
+  1% {opacity:0;}
+  33.33%, 66.66% {opacity: 1;}
+  66.66%, 100% {opacity:0;}
+}
+h1.TV{
+  color:aliceblue;
+}
+h2.TV{
+  background-color:aliceblue;
+  color:black;
+}
+p.TV{
+  background-color:aliceblue;
+  font-size:20px;
+  background-size: fit-content;
+  width:1000px;
+}
+img.TV{
+  padding-right:15px;
+}
+#psych {
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: rgb(107, 192, 38);
+}
+p#psych{
+  width:920px;
+  height:400px;
+  margin-left: 600px;
+  background-color: white;
+}
+.voxel {
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+img.voxel {
+  border: maroon 7px solid;
+}
